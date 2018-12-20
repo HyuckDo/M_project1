@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/buy_LL"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buy_book"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/book"
+            android:text="책 구매"
+            android:textSize="40sp"
+            android:onClick="onclickNext"/>
+
+        <Button
+            android:id="@+id/buy_item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="생필품 구매"
+            android:textSize="40sp"
+            android:background="@drawable/item"
+            android:onClick="onclickNext"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sell_LL"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_below="@id/buy_LL"
+        android:text="판매"
+        android:textSize="50sp"
+        android:onClick="onclickNext"
+        />
+
+</RelativeLayout>
