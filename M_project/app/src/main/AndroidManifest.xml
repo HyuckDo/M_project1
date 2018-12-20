@@ -28,7 +28,8 @@
         <activity android:name=".upitem" />
         <activity android:name=".Buy_Item" />
         <activity android:name=".Buy_Item_detail" />
-        <activity android:name=".Sinup"></activity>
+        <activity android:name=".Sinup" />
+        <activity android:name=".User_main"></activity>
     </application>
 
 </manifest>
